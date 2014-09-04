@@ -1,0 +1,25 @@
+{
+  "name": "single-page-react",
+  "version": "0.0.1",
+  "author": "Joel Denning <joeldenning@gmail.com>",
+  "description": "Lightweight, straightforward plugin for creating single page apps with React",
+  "main": "single-page-react.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joeldenning/single-page-react"
+  },
+  "keywords": [
+    "react",
+    "single",
+    "page",
+    "app",
+    "router"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "react": ">=0.10.x <1.x.x"
+  },
+  "peerDependencies": {
+    "react": ">=0.10.x <1.x.x"
+  }
+}

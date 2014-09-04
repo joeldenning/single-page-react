@@ -1,0 +1,20 @@
+{
+  "name": "single-page-react",
+  "main": "single-page-react.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/joeldenning/single-page-react",
+  "description": "Lightweight, straightforward plugin for creating single page apps with React",
+  "keywords": [
+    "react",
+    "single",
+    "page",
+    "app",
+    "router"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
