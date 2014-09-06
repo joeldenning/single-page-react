@@ -5,11 +5,11 @@ A lightweight, straightforward plugin for creating single page apps with [ReactJ
 
 ##Concept
 
-Making a single page app built with React doesn't need to be complicated. There's no need to bring in Backbone and Underscore if you don't want to. 
+Making a single page app built with React doesn't need to be complicated. There's no need to bring in Backbone if you don't want to. Single-page-react provides you a straightforward way to route URLs to specific React components.
 
 ##What single-page-react does
 
-single-page-react chooses one of your React components and inserts it into the DOM.
+Single-page-react chooses one of your React components and inserts it into the DOM.
 
 #####Which React component is inserted into the DOM?
 
@@ -21,7 +21,7 @@ Into the element whose id is stored in the <code>React.Router.routedElement</cod
 
 #####What happens when I change the page's hash?
 
-single-page-react will replace the React component inside of routedElement with the React component whose <code>route</code> attribute matches the hash. Take advantage of React virtual DOM diffing by reusing components; this way re-routing can be almost instantaneous!
+Single-page-react will replace the React component inside of routedElement with the React component whose <code>route</code> attribute matches the hash. Take advantage of React virtual DOM diffing by reusing components; this way re-routing can be almost instantaneous!
 
 #####Can I pass variables to my <code>routedElement</code>?
 
@@ -41,7 +41,7 @@ home.jsx
     		);
     	},
     
-      //When the URL hash is '#home', mount this component into the routedElement.
+        //When the URL hash is '#home', mount this component into the routedElement.
     	route: 'home' 
     });
     
@@ -58,10 +58,10 @@ index.html
     		<!-- Set which DOM element to insert React components into -->
     		<script>
       			React.Router.routedElement = document.body //or whatever element you prefer
-        </script>  
+            </script>  
     
-  	    <!-- Bring in the home react component -->
-    		<script src="home.jsx" type="text/jsx"></script>
+  	        <!-- Bring in the home react component -->
+    	    <script src="home.jsx" type="text/jsx"></script>
     		
     	</head>
     
