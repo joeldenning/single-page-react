@@ -30,6 +30,7 @@ Yes. The key-value pairs in the URL query are given to your React component via 
 ##Example
 
 home.jsx
+    
     /** @jsx React.DOM */
 
     var Home = React.createClass({
