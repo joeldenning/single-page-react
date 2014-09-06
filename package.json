@@ -1,6 +1,6 @@
 {
   "name": "single-page-react",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Joel Denning <joeldenning@gmail.com>",
   "description": "Lightweight, straightforward plugin for creating single page apps with React",
   "main": "single-page-react.js",
