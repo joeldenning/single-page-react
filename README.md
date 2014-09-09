@@ -15,7 +15,7 @@ Single-page-react chooses one of your React components and inserts it into the D
 
 The one whose <code>route</code> attribute matches the current URL hash.
 
-#####Where in the DOM will my React component by inserted?
+#####Where in the DOM will my React component be inserted?
 
 Into the element whose id is stored in the <code>React.Router.routedElement</code> variable. By default, this is <code>document.body</code>.
 
